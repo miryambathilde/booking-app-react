@@ -45,7 +45,7 @@ const Footer = () => {
                     <li className="footerListItem">Terms & conditions</li>
                 </ul>
             </div>
-            <div className="fText">Copyright © 2022 Lamabooking.</div>
+            <div className="footerText">Copyright © 2022 <a target="_blank" href="https://github.com/miryambathilde" rel="noreferrer">Miryam Bathilde</a></div>
         </div>
     );
 };
