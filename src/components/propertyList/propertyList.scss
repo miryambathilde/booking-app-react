@@ -19,14 +19,23 @@
   object-fit: cover;
 }
 
-.propertyListTitles > {
+.propertyListTitles> {
   h1 {
     font-size: 18px;
-    color: #444;
+    color: #262626;
   }
 
   h2 {
     font-size: 14px;
     font-weight: 300;
+  }
+}
+
+//  movil
+@media screen and (max-width: 549px) {
+  .propertyList {
+    flex-direction: column;
+    width: 93%;
+    margin-right: 15px;
   }
 }

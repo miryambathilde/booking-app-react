@@ -3,6 +3,7 @@
   width: 100%;
   width: 1024px;
   font-size: 12px;
+  margin-bottom: 20px;
 }
 
 .footerLists {
@@ -34,5 +35,26 @@
     text-decoration: none;
     font-weight: 600;
     color: #0071c2;
+  }
+}
+
+// laptop
+@media screen and (max-width: 1024px) {
+  .footer {
+    width: 98%;
+  }
+}
+
+// tablet and phablet
+@media screen and (max-width: 768px) and (min-width: 550px) {
+  .footerLists {
+    gap: 38px;
+  }
+}
+
+//  movil
+@media screen and (max-width: 549px) {
+  .footerLists {
+    flex-direction: column;
   }
 }

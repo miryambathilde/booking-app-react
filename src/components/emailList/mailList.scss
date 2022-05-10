@@ -10,7 +10,7 @@
   padding: 50px;
 }
 
-.mailInputContainer > {
+.mailInputContainer> {
   input {
     width: 300px;
     height: 30px;
@@ -29,4 +29,35 @@
     border-radius: 5px;
     cursor: pointer;
   }
+}
+
+//  movil
+@media screen and (max-width: 549px) {
+  .mail {
+    width: 80%;
+    margin-right: 14px;
+    padding: 34px;
+  }
+
+  .mailTitle {
+    font-size: 26px;
+  }
+
+  .mailDesc {
+    font-size: 14px;
+  }
+
+  .mailInputContainer {
+    display: contents;
+
+    &>input {
+      margin-right: 0;
+      margin-left: 12px;
+    }
+
+    &>button {
+      width: 140px;
+    }
+  }
+
 }

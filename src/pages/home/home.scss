@@ -11,3 +11,42 @@
   width: 1024px;
   font-size: 20px;
 }
+
+// laptop
+@media screen and (max-width: 1024px) {
+  .homeContainer {
+    width: 98%;
+    margin-left: 10px;
+  }
+
+  .homeTitle {
+    width: 98%;
+    margin-left: -18px;
+  }
+}
+
+// tablet and phablet
+@media screen and (max-width: 768px) and (min-width: 550px) {
+  .homeContainer {
+    width: 96%;
+  }
+
+  .homeTitle {
+    width: 96%;
+  }
+}
+
+//  movil
+@media screen and (max-width: 549px) {
+  #root {
+    width: calc(100% + 10px);
+  }
+
+  .homeContainer {
+    margin-top: 20px;
+  }
+
+  .homeTitle {
+    width: 95%;
+  }
+}
