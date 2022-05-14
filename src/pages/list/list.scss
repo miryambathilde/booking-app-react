@@ -71,7 +71,7 @@
   width: 50px;
 }
 
-.listSearch > button {
+.listSearch>button {
   padding: 10px;
   background-color: #0071c2;
   color: white;
@@ -83,4 +83,11 @@
 
 .listResult {
   flex: 3;
+}
+
+// tablet and phablet
+@media screen and (max-width: 768px) {
+  .listWrapper {
+    flex-direction: column;
+  }
 }
