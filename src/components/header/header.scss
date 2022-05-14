@@ -136,9 +136,25 @@
 
 // laptop
 @media screen and (max-width: 1024px) {
+
+  .header {
+    background-color: #003580;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-left: 10px;
+  }
+
   .headerContainer {
     margin: 20px 9px 100px 10px;
+    height: 492px;
+
+    &.listMode {
+      height: 75px;
+    }
   }
+
 
   .headerSearch {
     width: 97.5%;
@@ -153,6 +169,8 @@
 @media screen and (max-width: 768px) and (min-width: 550px) {
   .headerContainer {
     margin: 20px 10px 100px 9px;
+    height: 246px;
+    padding-left: 10px;
   }
 
   .headerTitle {
@@ -160,8 +178,9 @@
   }
 
   .headerSearch {
-    width: 96.5%;
+    width: 91.5%;
     height: 53px;
+    left: 16px;
 
     .headerSearchText {
       display: flex;
@@ -204,9 +223,14 @@
 //  movil
 @media screen and (max-width: 549px) {
 
-  .header {
-    height: 492px;
+  .headerContainer {
+    height: 396px;
+
+    &.listMode {
+      height: 116px;
+    }
   }
+
 
   .headerSearch {
     flex-direction: column;

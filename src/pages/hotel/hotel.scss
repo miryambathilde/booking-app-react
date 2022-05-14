@@ -154,3 +154,22 @@
     color: lightgray;
     cursor: pointer;
 }
+
+// laptop
+@media screen and (max-width: 1024px) {
+    .hotelContainer {
+        padding: 0 20px;
+    }
+}
+
+
+//  movil
+@media screen and (max-width: 549px) {
+    .bookNow {
+        top: 50px;
+    }
+
+    .hotelDistance {
+        margin-top: 30px;
+    }
+}
