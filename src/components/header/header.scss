@@ -186,7 +186,20 @@
     gap: 10px;
     flex-direction: column;
   }
+
+  .date {
+    color: #000000;
+    font-size: 12px;
+    left: 56px;
+    top: 68px;
+  }
+
+  .options {
+    top: 73px;
+    right: 37px;
+  }
 }
+
 
 //  movil
 @media screen and (max-width: 549px) {
@@ -228,5 +241,19 @@
     right: 17px;
     left: 11px;
   }
+
+  .date {
+    color: #000000;
+    font-size: 12px;
+    position: absolute;
+    left: 24px;
+    top: 72px;
+  }
+
+  .options {
+    top: 101px;
+    right: 92px;
+  }
+
 
 }

@@ -39,10 +39,21 @@
     flex-direction: column;
     margin-right: 15px;
 
+    .featuredItem {
+      h1 {
+        font-size: 24px;
+      }
+
+      h2 {
+        font-size: 18px;
+      }
+    }
+
     .featuredTitles {
       position: absolute;
       top: 20px;
       left: 20px;
     }
+
   }
 }
